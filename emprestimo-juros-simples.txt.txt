@@ -1,0 +1,22 @@
+algoritmo "Emprestimo Juros Simples"
+var
+   parcela, valor_emp, valor_parc, final, juros, valor_original: real
+inicio
+         Escreva ("Qual o valor do empréstimo? ")
+         Leia (valor_emp)
+         valor_original <- valor_emp
+         valor_emp <- valor_emp*1.2
+         Escreval ("Em quantas parcelas?  ")
+         Leia (parcela)
+         Escreva ("Vou pagar" ,parcela)
+         valor_parc <- valor_emp / parcela
+         Escreval (" parcelas de R$ " ,valor_parc:4:2)
+         final <- valor_parc * parcela)
+         Escreval ("Totalizando R$ ",final)
+         juros <- final - valor_original
+         Escreva ("Com um juros de R$ ",juros)
+         
+
+         
+
+fimalgoritmo
